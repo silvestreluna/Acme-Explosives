@@ -1,0 +1,40 @@
+{
+  "types": [
+      {
+          "id": "type0",
+          "category": "category0",
+          "name": "personal",
+          "description": "Fireworks intended for recreational use during holiday celebrations"
+      },
+      {
+          "id": "type1",
+          "category": "category0",
+          "name": "professional",
+          "description": "Fireworks intended for city/county events"
+      },
+      {
+          "id": "type2",
+          "category": "category0",
+          "name": "pyromaniac",
+          "description": "Fireworks intended for rodeos, country music shows, and GOP conventions"
+      },
+      {
+          "id": "type3",
+          "category": "category1",
+          "name": "personal",
+          "description": "Dynamite intended for personal home renovations"
+      },
+      {
+          "id": "type4",
+          "category": "category1",
+          "name": "professional",
+          "description": "Dynamite intended for city/county renovations"
+      },
+      {
+          "id": "type5",
+          "category": "category1",
+          "name": "pyromaniac",
+          "description": "for hell raising"
+      }
+  ]
+}
