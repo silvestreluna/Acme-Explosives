@@ -7,12 +7,14 @@ import util from '../helpers/util';
 const cardDomPrinter = (array) => {
   let domString = '';
   array.forEach((catg) => {
-    domString += '<div class="card col-sm-3 m-4">';
-    domString += `<div id="${catg.id}" class="getId card-body">`;
+    domString += `<div id="${catg.id}" class="card m-2">`;
+    domString += '<div class="card-header">';
     domString += `<h5>${catg.name}</h5>`;
+    domString += '</div>';
     domString += `<p>${catg.description}</p>`;
-    domString += `<p>category: ${catg.typeName}</p>`;
-    domString += `<p>prodName: ${catg.typeCat}</p>`;
+    domString += `<p>Type Name: ${catg.typeName}</p>`;
+    domString += '<div id="footerItem" class="card-footer">';
+    domString += `<p>category: ${catg.typeCat}</p>`;
     domString += '</div>';
     domString += '</div>';
   });
