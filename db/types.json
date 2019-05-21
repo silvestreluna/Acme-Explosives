@@ -21,19 +21,19 @@
       {
           "id": "type3",
           "category": "category1",
-          "name": "personal",
+          "name": "personal2",
           "description": "Dynamite intended for personal home renovations"
       },
       {
           "id": "type4",
           "category": "category1",
-          "name": "professional",
+          "name": "professional2",
           "description": "Dynamite intended for city/county renovations"
       },
       {
           "id": "type5",
           "category": "category1",
-          "name": "pyromaniac",
+          "name": "pyromaniac2",
           "description": "for hell raising"
       }
   ]

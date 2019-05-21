@@ -1,3 +1,8 @@
 import '../styles/main.scss';
+import prod from './components/products';
 
-console.error('hi');
+const init = () => {
+  prod.initCatg();
+};
+
+init();
