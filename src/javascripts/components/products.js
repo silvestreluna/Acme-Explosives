@@ -30,7 +30,6 @@ const prodWithCatAndType = (array1, array2) => {
     });
     return newObject;
   });
-  console.error(newCardToPrint);
   cardDomPrinter(newCardToPrint);
 };
 
@@ -42,7 +41,6 @@ const initCatg = () => {
         .then((resp) => {
           prodWithCatAndType(resp, typesWithCatg);
         });
-      // cardDomPrinter(typesWithCatg);
     })
     .catch(err => console.error(err));
 };
