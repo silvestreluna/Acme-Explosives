@@ -38,73 +38,73 @@
     },
     "whatever7": {
       "id": "product6",
-      "type": "type1",
+      "type": "type0",
       "name": "Arney's Explosion",
       "description": "de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by"
   },
   "whatever8": {
       "id": "product7",
-      "type": "type2",
+      "type": "type1",
       "name": "Fire Parade",
       "description": "pecting forest on fire"
   },
   "whatever9": {
       "id": "product8",
-      "type": "type3",
+      "type": "type2",
       "name": "Low Man Suprise",
       "description": "randomised words which don't look"
   },
   "whatever10": {
     "id": "product9",
-    "type": "type4",
+    "type": "type3",
     "name": "Funky Foam",
     "description": "there isn't anything embarrassing hidden in the middle of text. All"
 },
 "whatever11": {
     "id": "product10",
-    "type": "type5",
+    "type": "type4",
     "name": "Touchy Tuna",
     "description": "enerator on the Internet. It uses a dictionary of over 200 Latin words,"
 },
 "whatever12": {
     "id": "product11",
-    "type": "type1",
+    "type": "type5",
     "name": "whirlwind",
     "description": "ou are going to use a passage"
 },
 "whatever13": {
   "id": "product12",
-  "type": "type2",
+  "type": "type0",
   "name": "Something else",
   "description": "simply dummy text of the printing and typesetting industry."
 },
 "whatever14": {
   "id": "product13",
-  "type": "type3",
+  "type": "type1",
   "name": "Shit Fire",
   "description": " sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum gener"
 },
 "whatever15": {
   "id": "product14",
-  "type": "type4",
+  "type": "type2",
   "name": "This and That",
   "description": "t. It uses a dictionary of over 200 Latin w"
 },
 "whatever16": {
   "id": "product15",
-  "type": "type5",
+  "type": "type3",
   "name": "Rocket Man",
   "description": "standard chunk of Lorem Ipsum used since the 1500s is reproduced below "
 },
 "whatever17": {
   "id": "product16",
-  "type": "type0",
+  "type": "type4",
   "name": "Davie Bowie's Last Flight",
   "description": "rough the cites of the word"
 },
 "whatever18": {
   "id": "product17",
-  "type": "type1",
+  "type": "type5",
   "name": "Someone's gonna die",
   "description": "s in a piece of classical Latin"
 }

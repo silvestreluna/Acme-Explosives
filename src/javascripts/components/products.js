@@ -11,9 +11,8 @@ const cardDomPrinter = (array) => {
     domString += `<div id="${catg.id}" class="getId card-body">`;
     domString += `<h5>${catg.name}</h5>`;
     domString += `<p>${catg.description}</p>`;
-    domString += `<p>category: ${catg.catName}</p>`;
-    domString += `<p>prodName: ${catg.prodName}</p>`;
-    domString += `<p>desc: ${catg.prodDesc}</p>`;
+    domString += `<p>category: ${catg.typeName}</p>`;
+    domString += `<p>prodName: ${catg.typeCat}</p>`;
     domString += '</div>';
     domString += '</div>';
   });
@@ -21,14 +20,18 @@ const cardDomPrinter = (array) => {
 };
 
 const prodWithCatAndType = (array1, array2) => {
-  const newAllItems = array1;
-  for (let i = 0; i < array1.length; i += 1) {
-    if (array1[i].type === array2.id) {
-      newAllItems.catName = array1[i].name;
-      newAllItems.catDesc = array1[i].description;
-    }
-  }
-  console.error(newAllItems);
+  const newCardToPrint = array1.map((prodItem) => {
+    const newObject = prodItem;
+    array2.forEach((typeCatg) => {
+      if (prodItem.type === typeCatg.id) {
+        newObject.typeName = typeCatg.name;
+        newObject.typeCat = typeCatg.catName;
+      }
+    });
+    return newObject;
+  });
+  console.error(newCardToPrint);
+  cardDomPrinter(newCardToPrint);
 };
 
 const initCatg = () => {
@@ -39,8 +42,7 @@ const initCatg = () => {
         .then((resp) => {
           prodWithCatAndType(resp, typesWithCatg);
         });
-
-      cardDomPrinter(typesWithCatg);
+      // cardDomPrinter(typesWithCatg);
     })
     .catch(err => console.error(err));
 };
