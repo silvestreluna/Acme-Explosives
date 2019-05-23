@@ -1,5 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: ghostwhite;
+  background-color: #001f3f;
+}
+.card {
+  width: 350px;
+  height: auto;
+}
+
+#footerItem {
+  margin-top: auto !important;
+}
+
+.navbar {
+  justify-content: center;
+  color: azure;
 }
